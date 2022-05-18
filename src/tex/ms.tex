@@ -1,7 +1,7 @@
 % Define document class
 \documentclass[twocolumn]{aastex631}
 \usepackage{showyourwork}
-
+\graphicspath{{./}{figures/}}
 % Begin!
 \begin{document}
 
@@ -9,7 +9,7 @@
 \title{An open source scientific article}
 
 % Author list
-\author{@jguerra_astro}
+\author{@jguerra\_astro}
 
 % Abstract with filler text
 \begin{abstract}
@@ -51,6 +51,12 @@ Morbi ac orci et nisl hendrerit mollis, suspendisse ut massa, cras nec ante.
 Pellentesque a nulla cum sociis natoque penatibus et magnis dis parturient. 
 Aliquam tincidunt urna, nulla ullamcorper vestibulum turpis. 
 Pellentesque cursus luctus mauris \citep{Luger2021}.
+\begin{figure}
+    \includegraphics[width=\linewidth]{figures/straight_line.pdf}
+    \caption{Hello! i am a cool figure.}
+    \label{fig:cool_figure}
+    \script{straight_line.py}
+\end{figure}
 
 \bibliography{bib}
 
