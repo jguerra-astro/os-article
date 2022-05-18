@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <p align="center">
 <a href="https://github.com/showyourwork/showyourwork">
 <img width = "450" src="https://raw.githubusercontent.com/showyourwork/.github/main/images/showyourwork.png" alt="showyourwork"/>
@@ -16,3 +17,7 @@
 </p>
 
 An open source scientific article created using the [showyourwork](https://github.com/showyourwork/showyourwork) workflow.
+||||||| empty tree
+=======
+# os-article
+>>>>>>> ffb80d884bd58049ab97acdfe81e6d9f9d698d6f
